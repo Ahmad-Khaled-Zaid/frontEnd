@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card';
 import axios from 'axios';
+// import Button from 'react-bootstrap/Button'
 
 export class Books extends Component {
 
@@ -41,8 +42,7 @@ export class Books extends Component {
                                                 <Card.Title>{book.title}</Card.Title>
                                                 <Card.Text>
                                                     {book.description}
-                                                    {book.status}
-                                                    {book.email}
+                                                   
                                                 </Card.Text>
                                                 <Card.Text>
 
