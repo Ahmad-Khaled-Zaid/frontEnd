@@ -1,8 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-// import Button from 'react-bootstrap/Button';
-// import LoginButton from './LoginButton';
-// import './login.css';
+import "./Login.css";
+import LoginButton from "./LoginButton";
 
 class Login extends React.Component {
   render() {
@@ -11,7 +10,8 @@ class Login extends React.Component {
         <Card.Body>
           <Card.Title>Log In</Card.Title>
           <Card.Text>Click Below to Log In</Card.Text>
-          <a href="./LoginButton">LoginButton</a>
+
+          <LoginButton />
         </Card.Body>
       </Card>
     );
